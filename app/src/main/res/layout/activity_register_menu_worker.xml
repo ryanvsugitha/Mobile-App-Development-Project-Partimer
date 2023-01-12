@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="25dp"
+    android:gravity="center_vertical"
+    tools:context=".register_menu_worker">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register as Worker"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:layout_marginBottom="12dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Email"
+        android:layout_marginStart="12dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/et_email_worker"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:drawable/toast_frame"
+        android:backgroundTint="#C6DADB"
+        android:layout_marginBottom="12dp"
+        android:paddingHorizontal="12dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Name"
+        android:layout_marginStart="12dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/et_name_worker"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:drawable/toast_frame"
+        android:backgroundTint="#C6DADB"
+        android:layout_marginBottom="12dp"
+        android:paddingHorizontal="12dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Password"
+        android:layout_marginStart="12dp"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/et_password_worker"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:drawable/toast_frame"
+        android:backgroundTint="#C6DADB"
+        android:layout_marginBottom="12dp"
+        android:paddingHorizontal="12dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Confirm Password"
+        android:layout_marginStart="12dp"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/et_password_worker_confirm"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:drawable/toast_frame"
+        android:backgroundTint="#C6DADB"
+        android:layout_marginBottom="12dp"
+        android:paddingHorizontal="12dp"/>
+
+    <CheckBox
+        android:id="@+id/cb_agreeTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agree all the terms and privacy"
+        tools:ignore="MissingConstraints"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn_submit_worker"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="REGISTER"
+        android:backgroundTint="#F3A261"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
